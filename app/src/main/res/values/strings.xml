@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Xpertgroup Prueba</string>
-    <string name="title_images">Imágenes</string>
+    <string name="title_images">Galería</string>
     <string name="title_breed">Razas</string>
-    <string name="title_vote">los Votos</string>
+    <string name="title_vote">Votación</string>
     <string name="btn_view_detalles">Detalles</string>
     <string name="btn_wiki">ir a Wikipedia >> </string>
     <string name="list_is_empty">La lista esta vacía </string>

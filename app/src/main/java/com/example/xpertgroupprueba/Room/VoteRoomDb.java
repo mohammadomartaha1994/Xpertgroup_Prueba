@@ -12,14 +12,14 @@ import androidx.sqlite.db.SupportSQLiteDatabase;
 import com.example.xpertgroupprueba.model.VoteModel;
 
 
-@Database(entities = VoteModel.class, version = 3)
+@Database(entities = VoteModel.class, version = 1)
 public abstract class VoteRoomDb extends RoomDatabase {
     private static VoteRoomDb instance;
     public abstract VoteDao voteDao();
     public static synchronized VoteRoomDb getInstance(Context context) {
         if (instance == null) {
             instance = Room.databaseBuilder(context.getApplicationContext(),
-                    VoteRoomDb.class, "Vote_Databa1")
+                    VoteRoomDb.class, "Vote_Databas")
                     .fallbackToDestructiveMigration()
                     .addCallback(roomCallBack)
                     .build();

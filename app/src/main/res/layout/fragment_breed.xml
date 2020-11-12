@@ -43,6 +43,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="@+id/breedlist"
         app:layout_constraintEnd_toEndOf="@+id/breedlist"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/breedlist" />
 

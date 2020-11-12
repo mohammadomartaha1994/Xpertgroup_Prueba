@@ -43,6 +43,8 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="@+id/imagelist"
         app:layout_constraintEnd_toEndOf="@+id/imagelist"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imagelist" />
+        app:layout_constraintTop_toTopOf="@+id/imagelist"
+        app:layout_constraintVertical_bias="0.458" />
 </androidx.constraintlayout.widget.ConstraintLayout>

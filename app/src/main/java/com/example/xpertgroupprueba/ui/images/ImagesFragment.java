@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ProgressBar;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -68,12 +69,9 @@ public class ImagesFragment extends Fragment {
                 Date date = new Date(System.currentTimeMillis());
                 VoteModel voteModelItem = new VoteModel(imagesModel.getUrl(),formatter.format(date)+"",imagesModel.getId());
                 voteViewModel.insert(voteModelItem);
+                Toast.makeText(getActivity(),"Gracias por Votar",Toast.LENGTH_SHORT).show();
             }
         });
-    }
-    public void addToVotes(String urlImage,String date,String imageidentifier){
-        VoteModel product = new VoteModel(urlImage,date,imageidentifier);
-        imagesViewModel.insertVote(product);
     }
 
 }
