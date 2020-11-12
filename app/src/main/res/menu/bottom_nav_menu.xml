@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_images"
+        android:icon="@drawable/ic_images"
+        android:title="@string/title_images" />
+
+    <item
+        android:id="@+id/navigation_breed"
+        android:icon="@drawable/ic_breed"
+        android:title="@string/title_breed" />
+
+    <item
+        android:id="@+id/navigation_vote"
+        android:icon="@drawable/ic_vote"
+        android:title="@string/title_vote" />
+
+</menu>
